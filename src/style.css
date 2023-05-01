@@ -103,7 +103,9 @@ main h3 {
   margin: 0;
 }
 
-main img {max-height: 825px;}
+main img {
+  max-height: 825px;
+}
 
 main p {
   font-style: normal;
