@@ -190,7 +190,7 @@ footer a {
 
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-gap: 20px;
   }
 
   section {
