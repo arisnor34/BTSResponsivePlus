@@ -196,6 +196,9 @@ footer a {
   section {
     padding: 30px;
   }
+  main p {
+    font-size: 14px;
+  }
 
   footer h3 {
     font-size: 18px;
