@@ -28,11 +28,11 @@
         <div>
           <img
             src="images/BTSDoorTeaser.jpeg"
-            alt=""
-            class="img-responsive"
+            alt="BTS Group Proof Door Teaser"
+            class="img-responsive center"
           />
         </div>
-        <div>
+        <div id="more">
           <h2>Why BTS?</h2>
           <h3>The World Phenomenon</h3>
           <p>
@@ -45,62 +45,143 @@
         </div>
       </section>
       <section class="secondary">
+        <h2 class="text-center">Meet Each Member & Their Solo Music</h2>
+        <h3 class="text-center">BTS Members</h3>
+
+        <div class="row1">
         <div class="image-row">
           <div class="image-wrapper">
-            <img class="card" src="/images/RM.jpg" alt="Namjoon/RM">
+            <img class="card" src="images/RM.jpg" alt="Namjoon/RM">
             <div class="overlay">
-              <div class="text">RM</div>
-              <p class="text2">김남존 (Kim Namjoon) <br> September 12, 1994 <br> Leader and Rapline</p>
+              <div class="text center">RM</div>
+              <p class="text2 center">김남존 (Kim Namjoon) <br> September 12, 1994 <br>Leader & Rap Line</p>
+              <button id="button1" class="image-button center" onclick="toggleSection(1)">Solo Music</button>
             </div>
           </div>
           <div class="image-wrapper">
-            <img class="card" src="/images/SUGA.jpg" alt="SUGA">
+            <img class="card" src="images/SUGA.jpg" alt="SUGA">
             <div class="overlay">
               <div class="text">SUGA</div>
-              <p class="text2">민윤기 (Min Yoon-gi) & Augst D <br> March 9, 1993 <br>Rapline & Producer</p>
+              <p class="text2">민윤기 (Min Yoon-gi) & Augst D <br> March 9, 1993 <br>Rap Line</p>
+              <button id="button2" class="image-button" onclick="toggleSection(2)">Solo Music</button>
             </div>
           </div>
           <div class="image-wrapper">
-            <img class="card" src="/images/j-hope.jpg" alt="Image 3">
+            <img class="card" src="images/j-hope.jpg" alt="j-hope">
             <div class="overlay">
               <div class="text">j-hope</div>
-              <p class="text2">정호석 (Jung Ho-seok) <br> February 18, 1994 <br> Rapline</p>
+              <p class="text2">정호석 (Jung Ho-seok) <br> February 18, 1994 <br>Rap Line</p>
+              <button id="button3" class="image-button" onclick="toggleSection(3)">Solo Music</button>
             </div>
           </div>
         </div>
-        
-        <div class="image-row">
+      </div>
+
+        <div class="sect1">
+        <div id="section1" class="section content-section">
+          <h2 class="text-center">My Favorite Songs</h2>
+          <h3 class="text-center">RM's Solo Music</h3>
+          <div class="grid grid-4-columns">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5zvLKLuTQvN8BzdQtOSBd3?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0Cuwd86fyu0lPVokzTp8Hu?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0ZUtat3yQpzMRMJ9Qmz5k0?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4L3HQD7tbXCPpO9Ps7rgdm?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+        <div id="section2" class="section content-section">
+          <h2 class="text-center">My Favorite Songs</h2>
+          <h3 class="text-center">SUGA's Solo Music as Agust D</h3>
+          <div class="grid grid-4-columns">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4bjN59DRXFRxBE1g5ne6B1?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6x2arhzc99oGlqM82V0mnd?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1m0yEldZVNu9SzmtqfFWRt?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/38iufYNK4hUzS649Oe2kZy?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+        <div id="section3" class="section content-section">
+          <h2 class="text-center">My Favorite Songs</h2>
+          <h3 class="text-center">j-hope's Solo Music</h3>
+          <div class="grid grid-4-columns">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2jk6oBuLiCZJTDWhlJEzIw?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2QWEMqQMJR1KDf6hDjJOs6?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70XnKsO3UnIT4FnEwChQXx?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70XnKsO3UnIT4FnEwChQXx?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+        <div class="row2">
+          <div class="image-row">
           <div class="image-wrapper">
-            <img class="card" src="" alt="Image 4">
+            <img class="card" src="images/Jin.jpg" alt="Jin">
             <div class="overlay">
-              <div class="text">Image 4</div>
-              <p class="text2">김남존 (Kim Namjoon) <br> September 12, 1994 <br> Leader and Rapline</p>
+              <div class="text">Jin</div>
+              <p class="text2">김석진 (Kim Seok-jin) <br> December 4, 1992 <br>Vocal Line</p>
+              <button id="button4" class="image-button" onclick="toggleSection(4)">Solo Music</button>
             </div>
           </div>
           <div class="image-wrapper">
-            <img class="card" src="" alt="Image 5">
+            <img class="card" src="images/Jimin.jpg" alt="Jimin">
             <div class="overlay">
-              <div class="text">Image 5</div>
-              <p class="text2">김남존 (Kim Namjoon) <br> September 12, 1994 <br> Leader and Rapline</p>
+              <div class="text">Jimin</div>
+              <p class="text2">박지민 (Park Ji-min) <br> October 13, 1995 <br>Vocal Line</p>
+              <button id="button5" class="image-button" onclick="toggleSection(5)">Solo Music</button>
             </div>
           </div>
           <div class="image-wrapper">
-            <img class="card" src="" alt="Image 6">
+            <img class="card" src="images/V.jpg" alt="V">
             <div class="overlay">
-              <div class="text">Image 6</div>
-              <p class="text2">김남존 (Kim Namjoon) <br> September 12, 1994 <br> Leader and Rapline</p>
+              <div class="text">V</div>
+              <p class="text2">김태형 (Kim Tae-hyung) <br> December 30, 1995 <br>Vocal Line</p>
+              <button id="button6" class="image-button" onclick="toggleSection(6)">Solo Music</button>
             </div>
           </div>
           <div class="image-wrapper">
-            <img class="card" src="" alt="Image 7">
+            <img class="card" src="images/Jungkook.jpg" alt="Jung Kook">
             <div class="overlay">
-              <div class="text">Image 7</div>
-              <p class="text2">김남존 (Kim Namjoon) <br> September 12, 1994 <br> Leader and Rapline</p>
+              <div class="text">Jung Kook</div>
+              <p class="text2">전정국 (Jeon Jung-kook) <br> September 1, 1997 <br>Vocal Line</p>
+              <button id="button7" class="image-button" onclick="toggleSection(7)">Solo Music</button>
             </div>
           </div>
         </div>
+      </div>
       </section>
 
+      
+      <div id="section4" class="section content-section">
+        <h2 class="text-center">My Favorite Songs</h2>
+        <h3 class="text-center">Jin's Solo Music</h3>
+        <div class="grid grid-4-columns">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0h7QMc9ZRzA9QJrbEHytn2?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2LowwiemmGMzzNSH1PJprK?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2P6PLe4ojigLUp4CWMkcAI?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div id="section5" class="section content-section">
+        <h2 class="text-center">My Favorite Songs</h2>
+        <h3 class="text-center">Jimin's Solo Music</h3>
+        <div class="grid grid-4-columns">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Ua0m0YmEjrMi9XErKcNiR?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4NIe9Is7bN5JWyTeCW2ahK?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2gzhQaCTeNgxpeB2TPllyY?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div id="section6" class="section content-section">
+        <h2 class="text-center">My Favorite Songs</h2>
+        <h3 class="text-center">V's Solo Music</h3>
+        <div class="grid grid-4-columns">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2LowwiemmGMzzNSH1PJprK?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div id="section7" class="section section content-section">
+        <h2 class="text-center">My Favorite Songs</h2>
+        <h3 class="text-center">Jung Kook's Solo Music</h3>
+        <div class="grid grid-4-columns">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5Odq8ohlgIbQKMZivbWkEo?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1RDvyOk4WtPCtoqciJwVn8?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
     </main>
     <footer>
       <section class="grid">
@@ -151,5 +232,6 @@
           </div>
         </section>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

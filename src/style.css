@@ -25,6 +25,9 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.grid-4-columns{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 section {
   max-width: 1200px;
@@ -138,9 +141,16 @@ main a {
 ;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .image-row {
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
 }
 
 .image-wrapper {
@@ -184,9 +194,31 @@ img.card {
   font-size: 13px;
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.image-button {
+  background: #221072;
+  border-radius: 25px;
+  border: white;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top:80%;
+  left: 35%;
+}
+
+.section {
+  display: none;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
 }
 
 footer {
@@ -270,6 +302,19 @@ footer a {
 
   footer a{
     font-size: 12px;
+  }
+
+  .text {
+    top: 30%;
+    left: 50%;
+  }
+  .text2 {
+    top: 50%;
+    left: 40%;
+  }
+  .image-button{
+    left: 25%;
+    top:80%;
   }
 }
 
