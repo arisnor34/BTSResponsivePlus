@@ -214,6 +214,9 @@ img.card {
   top:80%;
   left: 35%;
 }
+.image-wrapper {
+  padding: 5px;
+}
 
 .section {
   display: none;
@@ -237,9 +240,6 @@ img.card {
 
 .card {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 .card-spot {
@@ -248,6 +248,23 @@ img.card {
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-row {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.video-column {
+  width: calc(100% / 3);
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 h2 {
