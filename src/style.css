@@ -149,7 +149,7 @@ main a {
   width: 30%;
 }
 
-img {
+img.card {
   display: block;
   width: 100%;
   height: auto;
