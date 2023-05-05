@@ -25,6 +25,11 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-4-columns{
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -138,7 +143,6 @@ main a {
   text-transform: uppercase;
   border-radius: 34px;
   background:#272044;
-;
 }
 
 .center {
@@ -219,6 +223,56 @@ img.card {
 
 .show {
   display: block;
+}
+
+.embed {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card-spot {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.card-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height:1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
+a.btn:hover {
+  background-color: #221072;
 }
 
 footer {
